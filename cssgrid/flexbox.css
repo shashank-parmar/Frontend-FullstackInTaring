@@ -1,0 +1,18 @@
+.container{
+    height: 900px;
+    width: 700px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+}
+
+.item{
+    height: 122px;
+    width: 122px;
+    background-color: blueviolet;
+}
